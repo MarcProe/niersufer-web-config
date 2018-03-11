@@ -17,7 +17,9 @@
       }
     ],
     "ifaces": [
-      "br0-niers"
+      "br0-niers",
+      "br0-mg",
+      "br0-mo"
     ],
     "storage": {
       "file": "./raw.json"

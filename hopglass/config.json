@@ -1,5 +1,5 @@
 {
-  "dataPath": "http://hopglass.freifunk-niersufer.de:4000/",
+  "dataPath": "https://hopglass.freifunk-niersufer.de/api/",
   "siteName": "Freifunk Niersufer",
   "mapSigmaScale": 0.5,
   "showContact": false,  
