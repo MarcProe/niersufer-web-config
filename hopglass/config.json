@@ -27,31 +27,31 @@
     }
   ],
   "nodeInfos": [
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=1&theme=light&width=600&height=300&var-nodeid={NODE_ID}"
+    { "href": "https://hopglass.freifunk-niersufer.de/grafana/d/j7AWhpgmz/node?refresh=30m&orgId=2&panelId=8&fullscreen&var-node={NODE_NAME}",
+      "iframe": "https://hopglass.freifunk-niersufer.de/grafana/d-solo/j7AWhpgmz/node?refresh=30m&orgId=2&panelId=8&var-node={NODE_NAME}"
     },  
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=2&theme=light&width=600&height=500&var-nodeid={NODE_ID}"
+    { "href": "https://hopglass.freifunk-niersufer.de/grafana/d/j7AWhpgmz/node?refresh=30m&orgId=2&panelId=3&fullscreen&var-node={NODE_NAME}",
+      "iframe": "https://hopglass.freifunk-niersufer.de/grafana/d-solo/j7AWhpgmz/node?refresh=30m&orgId=2&panelId=3&var-node{NODE_NAME}"
     },  
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/node-byid?var-nodeid={NODE_ID}",  
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/node-byid?panelId=3&theme=light&width=600&height=200&var-nodeid={NODE_ID}"
+    { "href": "https://hopglass.freifunk-niersufer.de/grafana/d/j7AWhpgmz/node?refresh=30m&panelId=1&fullscreen&edit&orgId=2&tab=axes&var-node={NODE_NAME}",  
+      "iframe": "https://hopglass.freifunk-niersufer.de/grafana/d-solo/j7AWhpgmz/node?refresh=30m&panelId=1&orgId=2&tab=axes&var-node={NODE_NAME}"
     }
   ],
   "globalInfos": [
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/global?var-job=dus",
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/global?panelId=1&&theme=light&width=800&height=600&var-job=dus"
+    { "href": "https://hopglass.freifunk-niersufer.de/grafana/d/kg7lapRmz/global?refresh=2h&orgId=2&panelId=3&fullscreen",
+      "iframe": "https://hopglass.freifunk-niersufer.de/grafana/d-solo/kg7lapRmz/global?refresh=2h&orgId=2&panelId=3"
     },
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/global?var-job=dus",
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/global?panelId=8&&theme=light&width=800&height=600&var-job=dus"
+    { "href": "https://hopglass.freifunk-niersufer.de/grafana/d/kg7lapRmz/global?refresh=2h&orgId=2&panelId=4&fullscreen",
+      "iframe": "https://hopglass.freifunk-niersufer.de/grafana/d-solo/kg7lapRmz/global?refresh=2h&orgId=2&panelId=4"
     }
   ],
   "linkInfos": [
-    { "href": "https://map.eulenfunk.de/stats/dashboard/db/links?var-source={SOURCE}&var-target={TARGET}",
-      "thumbnail": "https://map.eulenfunk.de/stats/render/dashboard-solo/db/links?panelId=1&&theme=light&width=800&height=600&var-source={SOURCE}&var-target={TARGET}"
-    }
   ],
   "siteNames": [
-    { "site": "ffniers", "name": "Niersufer" }
+    { "site": "ffniers", "name": "Niersufer" },
+    { "site": "ffkk", "name": "Kempen" },
+    { "site": "ffmg", "name": "Mönchengladbach" },
+    { "site": "ffmo", "name": "Moers" }
   ],
   "hwImg": [
     { "thumbnail": "https://cdn.rawgit.com/Moorviper/meshviewer_hwpics/master/nodes/{MODELHASH}.svg",
