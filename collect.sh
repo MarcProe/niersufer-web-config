@@ -7,3 +7,6 @@ cp /var/www/html/config.json hopglass
 cp /opt/hopglass-server/config.json hopglass-server
 cp /etc/nginx/sites-enabled/default nginx
 cp /etc/grafana/grafana.ini grafana
+cp /home/marcus/dev/meshviewer/config.js meshviewer
+cp /home/marcus/dev/meshviewer/config.default.js meshviewer
+cp /etc/yanic.conf yanic
